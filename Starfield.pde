@@ -1,7 +1,7 @@
 Particle[] particles; 
 void setup()
 {
-  size(700,700);
+  size(800,700);
   particles = new Particle[500];
   for(int i = 50; i < particles.length; i++)
   {
