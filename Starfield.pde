@@ -73,7 +73,7 @@ class Oddball implements Particle//uses an interface
   public void show()
   {
     noStroke();
-    fill(255);
+    fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
     ellipse((float)myX, (float)myY, 10, 10);
   }
 }
